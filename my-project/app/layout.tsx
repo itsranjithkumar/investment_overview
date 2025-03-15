@@ -22,11 +22,11 @@ export default function RootLayout({
             <Sidebar />
             <div className="flex-1 flex flex-col">
               <header className="h-14 flex items-center justify-between px-6 bg-[#121212]">
-                <nav className="flex space-x-4">
-                  <a href="/portfolio" className="text-white">Portfolio</a>
-                  <a href="/home" className="text-white">Home</a>
-                  <a href="/tools" className="text-white">Tools</a>
-                  <a href="/transactions" className="text-white">Transactions</a>
+                <nav className="flex space-x-4 mb-2">
+                  <a href="/portfolio" className="text-white border-b-2 border-transparent hover:border-blue-500">Home</a>
+                  <a href="/portfolio" className="text-white border-b-2 border-transparent hover:border-blue-500">Portfolio</a>
+                  <a href="/tools" className="text-white border-b-2 border-transparent hover:border-blue-500">Tools</a>
+                  <a href="/transactions" className="text-white border-b-2 border-transparent hover:border-blue-500">Transactions</a>
                 </nav>
                 <input type="text" placeholder="Search..." className="p-2 rounded" />
                 <div className="flex items-center gap-4">

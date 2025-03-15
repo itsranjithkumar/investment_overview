@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Area, AreaChart, ResponsiveContainer, Tooltip, XAxis } from "recharts"
+import { Area, AreaChart, ResponsiveContainer, Tooltip, XAxis, Text } from "recharts"
 import { investmentData } from "../lib/data"
 
 export function PerformanceChart() {
@@ -26,7 +26,7 @@ export function PerformanceChart() {
                   return (
                     <div className="bg-[#333] p-2 rounded border border-gray-700 text-sm">
                       <p className="text-gray-300">{payload[0].payload.date}</p>
-                      <p className="font-bold">₹{payload[0].value?.toLocaleString()}</p>
+                      <p className="font-bold" style={{ color: 'white' }}>₹{payload[0].value?.toLocaleString()}</p>
                     </div>
                   )
                 }
@@ -61,4 +61,3 @@ export function PerformanceChart() {
     </div>
   )
 }
-
