@@ -109,7 +109,7 @@ export function OverlapAnalysis() {
   return (
     <div className="mt-8">
       <div className="flex items-center gap-2 mb-4">
-        <h3 className="text-lg font-medium">Overlap Analysis</h3>
+        <h3 className="text-lg font-medium text-white">Overlap Analysis</h3>
         <Info className="h-4 w-4 text-gray-400" />
       </div>
 
@@ -131,4 +131,3 @@ export function OverlapAnalysis() {
     </div>
   )
 }
-
