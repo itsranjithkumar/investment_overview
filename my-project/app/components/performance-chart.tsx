@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Area, AreaChart, ResponsiveContainer, Tooltip, XAxis, Text } from "recharts"
+import { Area, AreaChart, ResponsiveContainer, Tooltip, XAxis } from "recharts"
 import { investmentData } from "../lib/data"
 
 export function PerformanceChart() {
